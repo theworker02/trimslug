@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/trimslug",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trim validation gates for slug inputs before they hit prod.",
+  "bin": {
+    "trimslug": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/trimslug.git"
+  },
+  "homepage": "https://theworker02.github.io/trimslug/",
+  "keywords": [
+    "trim",
+    "slug",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
